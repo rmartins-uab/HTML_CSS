@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+    .button{
+        display: inline-block;
+        color: rgb(10, 10, 10);
+        text-decoration: none;
+        padding: 20px 50px;
+        border: 3px solid #3c67e3;
+        border-radius: 10px;
+    }
+    .button:hover{
+        animation: pulsate 1s ease-in-out;
+    }
+    @keyframes pulsate {
+        0%{
+            box-shadow:
+            0 0 25px #5ddcff,
+            0 0 25px #4e00c2;
+        }   
+    }
+</style>
+</head>
+<body>
+
+    <a href="#" class="button">button</a>
+    
+</body>
+</html>
